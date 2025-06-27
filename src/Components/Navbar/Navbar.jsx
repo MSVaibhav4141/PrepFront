@@ -632,7 +632,7 @@ function ResponsiveAppBar(props) {
                     >
                       <Typography textAlign="center">Profile</Typography>
                     </MenuItem>
-                    {user?.user.signedUpFor === "mentor" && (
+                    {user?.user?.signedUpFor === "mentor" && (
                       <MenuItem onClick={handleNavigation}>
                         <Typography textAlign="center">
                           Mentor Application
